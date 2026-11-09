@@ -1,8 +1,9 @@
 
 #include <stdio.h>
+#include "database.h"
  
 
 int main(void) {
-    printf("Hello, World!\n");
+    Record record;
     return 0; 
 }
