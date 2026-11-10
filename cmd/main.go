@@ -2,5 +2,8 @@ package main
 import "fmt"
 
 func main () {
-	fmt.Println("dfdfdfd")
+	key := "az"
+	ky := []byte(key)
+	fmt.Println(len(ky))
 }
+
